@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=PT+Sans:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+}
+
+header {
+    background: url("./../img/hero.jpg");
+    height: 100vh;
+}
+
+.inner_cont {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.navigation {
+    padding-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation-slide {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 40px;
+    font-family: 'Lobster', sans-serif;
+    color: white;
+}
+
+.link {
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 25px;
+    font-weight: 400;
+    color: white;
+}
+
+.content {
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.content .title {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.content .undtext {
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+main {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.mbp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px 0;
+}
+
+.con {
+    width: 470px;
+    color: #31405B;
+}
+
+.con .title {
+    font-size: 54px;
+    font-weight: 700;
+}
+
+.con .text {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.con .button {
+    background: #0AC883;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    box-shadow: 0px 8px 20px 0px #18DB9459;
+    padding: 12px 40px;
+    border-radius: 50px;
+}
+
+footer {
+    background: #265847;
+    color: #fff;
+    padding: 70px 0;
+}
+
+.fin {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fin .location {
+    width: 270px;
+}
+
+.fin .location .text {
+    margin-top: 26px;
+}
+
+.fin .finish {
+    width: 270px;
+}
+
+.fin .finish .title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.header {
+    background: url("./../img/hero.jpg");
+    padding: 25px 0;
+}
+
+.header {
+    background: url("./../img/hero.jpg");
+    padding: 25px 0;
+}
+
+.main-title {
+    font-size: 54px;
+    font-weight: 700;
+    text-align: center;
+    color: #31405B;
+    padding: 60px 0;
+}
+
+.main-title-2 {
+    font-weight: 700;
+    text-align: center;
+    color: #31405B;
+    padding: 60px 0;
+}
+
+.pic-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pic-2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.p-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.article-info p {
+    margin: 40px 0;
+}
+
+.footer-content {
+    text-align: center;
+}

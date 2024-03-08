@@ -1,36 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-
-    <!-- Compiled and minified CSS -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
-    />
-  </head>
-  <body>
-    <nav>
-      <div class="nav-wrapper">
-        <a href="#" class="brand-logo">Logo</a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="sass.html">Sass</a></li>
-          <li><a href="badges.html">Components</a></li>
-          <li><a href="collapsible.html">JavaScript</a></li>
-        </ul>
-      </div>
-    </nav>
-
-    <header class="header">
-        <div class="container">
-            <h1>Hello world</h1>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/master.css">
+    <title>Главная</title>
+</head>
+<body>
+    <header>
+        <div class="inner_cont">
+            <div class="navigation">
+            
+                <div class="logo">ФорестТревел</div>
+                <div class="links">
+                    <a class="link" href="./../index.html">Главная</a>
+                    <a class="link" href="./pages/pictures.html">Туры и направления</a>
+                    <a class="link" href="./pages/articlePage.html">Трекинг</a>
+                    <a class="link" href="#">Галерея</a>
+                    <a class="link" href="./pages/contactsPage.html">Контакты</a>
+                </div>
+            </div>
+            
+            <div class="content">
+                <div class="title">Путешествие всегда хорошая идея</div>
+                <div class="undtext">Турпоходы по дикой природе</div>
+            </div>
         </div>
     </header>
-
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-  </body>
+    <main>
+        <div class="inner_cont">
+            <section class="mbp">
+                <div class="con">
+                    <div class="title">Популярные направления</div>
+                    <div class="text">Когда Горный Алтай называют второй Швейцарией, алтайцы отвечают, что нужно еще разобраться, кто тут второй. Чтобы расставить все по местам, отправляйтесь в путешествие по Чуйскому тракту , по Горному Алтаю до самой Монголии. 962 км — полный маршрут Новосибирск—Новоалтайск—Бийск—Майма —государственная граница с Монголией.</div>
+                    <a class="button">Подробнее</a>
+                </div>
+                <div class="pic">
+                    <img src="./img/mbp1.jpg" alt="">
+                </div>
+            </section>
+            <section class="mbp">
+                <div class="pic">
+                    <img src="./img/mbp2.jpg" alt="">
+                </div>
+                <div class="con">
+                    <div class="title">Впечатляющие маршруты</div>
+                    <div class="text">Вишенкой на торте станет поездка в Национальный парк Порт-Кэмпбелл через Ocean Road, которая сама по себе стоит визита в Австралию. Полюбуетесь одной из главных достопримечательностей страны — скалами, которые до 1922 года были известны в народе как «Хрюшка и поросята», а сегодня носят название «Двенадцать апостолов».</div>
+                    <a class="button">Подробнее</a>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="inner_cont">
+            <section class="fin">
+                <div class="location">
+                    <div class="logo">ФорестТревел</div>
+                    <div class="text">При поддержке Управления по туризму Российской Федерации. ФорестТревел. Все права защищены. Copyright © 2021</div>
+                </div>
+                <div class="finish">
+                    <div class="title">Контакты</div>
+                    <div class="undtext">+7 (905) 555-55-55
+                        info@foresttravel.com
+                        г. Москва, Рязанский проспект 54, офис 112.</div>
+                </div>
+            </section>
+        </div>
+    </footer>
+</body>
 </html>
